@@ -1,0 +1,55 @@
+georgeca@georgeca-VirtualBox:~$ ls -lh
+total 36K
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Desktop
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Documents
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Downloads
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Music
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Pictures
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Public
+drwx------ 3 georgeca georgeca 4.0K May  5 13:31 snap
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Templates
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Videos
+georgeca@georgeca-VirtualBox:~$ cat 1> output.txt
+Linux is a very good option.
+^C
+georgeca@georgeca-VirtualBox:~$ ls
+Desktop  Documents  Downloads  Music  output.txt  Pictures  Public  snap  Templates  Videos
+georgeca@georgeca-VirtualBox:~$ cat output.txt 
+Linux is a very good option.
+georgeca@georgeca-VirtualBox:~$ cat 1>>output.txt
+And so is Windows.
+^C
+georgeca@georgeca-VirtualBox:~$ ls -lh
+total 40K
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Desktop
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Documents
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Downloads
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Music
+-rw-rw-r-- 1 georgeca georgeca   48 May 12 21:31 output.txt
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Pictures
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Public
+drwx------ 3 georgeca georgeca 4.0K May  5 13:31 snap
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Templates
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Videos
+georgeca@georgeca-VirtualBox:~$ cat output.txt 
+Linux is a very good option.
+And so is Windows.
+georgeca@georgeca-VirtualBox:~$ cat >> output.txt 
+why not
+^C
+georgeca@georgeca-VirtualBox:~$ ls -lh
+total 40K
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Desktop
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Documents
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Downloads
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Music
+-rw-rw-r-- 1 georgeca georgeca   56 May 12 21:31 output.txt
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Pictures
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Public
+drwx------ 3 georgeca georgeca 4.0K May  5 13:31 snap
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Templates
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Videos
+georgeca@georgeca-VirtualBox:~$ cat output.txt 
+Linux is a very good option.
+And so is Windows.
+why not
