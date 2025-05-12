@@ -1,0 +1,13 @@
+terminal 1 window:
+
+georgeca@georgeca-VirtualBox:~$ tty
+/dev/pts/1
+georgeca@georgeca-VirtualBox:~$ sending from one terminal to another
+^C
+
+
+terminal 2 window:
+
+georgeca@georgeca-VirtualBox:~$ cat > /dev/pts/1
+sending from one terminal to another
+^C
