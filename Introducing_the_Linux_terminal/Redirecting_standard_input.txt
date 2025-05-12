@@ -1,0 +1,11 @@
+georgeca@georgeca-VirtualBox:~$ cat > inputfile.txt
+This is a new file which will be standard input.
+^C
+georgeca@georgeca-VirtualBox:~$ cat inputfile.txt 
+This is a new file which will be standard input.
+georgeca@georgeca-VirtualBox:~$ cat 0< inputfile.txt 1>output.txt
+georgeca@georgeca-VirtualBox:~$ cat output.txt 
+This is a new file which will be standard input.
+georgeca@georgeca-VirtualBox:~$ cat 0<output.txt 
+This is a new file which will be standard input.
+georgeca@georgeca-VirtualBox:~$ 
