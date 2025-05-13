@@ -1,0 +1,129 @@
+georgeca@georgeca-VirtualBox:~$ ls -lh
+total 36K
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Desktop
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Documents
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Downloads
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Music
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Pictures
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Public
+drwx------ 4 georgeca georgeca 4.0K May 12 15:00 snap
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Templates
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Videos
+georgeca@georgeca-VirtualBox:~$ date 1>date.txt
+georgeca@georgeca-VirtualBox:~$ ls -lh
+total 40K
+-rw-rw-r-- 1 georgeca georgeca   33 May 13 09:53 date.txt
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Desktop
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Documents
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Downloads
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Music
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Pictures
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Public
+drwx------ 4 georgeca georgeca 4.0K May 12 15:00 snap
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Templates
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Videos
+georgeca@georgeca-VirtualBox:~$ cat date.txt 
+Tue May 13 09:53:06 AM EEST 2025
+georgeca@georgeca-VirtualBox:~$ man -k cut
+binfmt.d (5)         - Configure additional binary formats for executables at...
+bzexe (1)            - compress executable files in place
+cpuwalk.bt (8)       - Sample which CPUs are executing processes.. Uses bpftr...
+cron (8)             - daemon to execute scheduled commands (Vixie Cron)
+cut (1)              - remove sections from each line of files
+dlsym (3)            - obtain address of a symbol in a shared object or execu...
+dlvsym (3)           - obtain address of a symbol in a shared object or execu...
+elf (5)              - format of Executable and Linking Format (ELF) files
+exec (3)             - execute a file
+execl (3)            - execute a file
+execle (3)           - execute a file
+execlp (3)           - execute a file
+execv (3)            - execute a file
+execve (2)           - execute program
+execveat (2)         - execute program relative to a directory file descriptor
+execvp (3)           - execute a file
+execvpe (3)          - execute a file
+fexecve (3)          - execute program specified via file descriptor
+gzexe (1)            - compress executable files in place
+im-launch (1)        - launch input method and execute session program
+invoke-rc.d (8)      - executes System-V style init script actions
+kexec_file_load (2)  - load a new kernel for later execution
+kexec_load (2)       - load a new kernel for later execution
+personality (2)      - set the process execution domain
+pkexec (1)           - Execute a command as another user
+proc_pid_personality (5) - execution domain
+proc_pid_syscall (5) - currently executed system call
+profil (3)           - execution time profile
+sg (1)               - execute command as different group ID
+spu_run (2)          - execute an SPU context
+sudo (8)             - execute a command as another user
+sudoedit (8)         - execute a command as another user
+system (3)           - execute a shell command
+systemd-binfmt (8)   - Configure additional binary formats for executables at...
+systemd-binfmt.service (8) - Configure additional binary formats for executab...
+systemd-detect-virt (1) - Detect execution in a virtualized environment
+systemd-inhibit (1)  - Execute a program with an inhibition lock taken
+systemd.exec (5)     - Execution environment configuration
+unshare (2)          - disassociate parts of the process execution context
+usleep (3)           - suspend execution for microsecond intervals
+watch (1)            - execute a program periodically, showing output fullscreen
+xargs (1)            - build and execute command lines from standard input
+xcutsel (1)          - interchange between cut buffer and selection
+georgeca@georgeca-VirtualBox:~$ man 1 cut
+georgeca@georgeca-VirtualBox:~$ date
+Tue May 13 10:05:39 AM EEST 2025
+georgeca@georgeca-VirtualBox:~$ ls -lh
+total 40K
+-rw-rw-r-- 1 georgeca georgeca   33 May 13 09:53 date.txt
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Desktop
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Documents
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Downloads
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Music
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Pictures
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Public
+drwx------ 4 georgeca georgeca 4.0K May 12 15:00 snap
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Templates
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Videos
+georgeca@georgeca-VirtualBox:~$ cut  0<date.txt -d " " -f 1 
+Tue
+georgeca@georgeca-VirtualBox:~$ cut 0<date.txt --delimiter=" " --fields=1
+Tue
+georgeca@georgeca-VirtualBox:~$ date | cut -d " " - f 1
+cut: you must specify a list of bytes, characters, or fields
+Try 'cut --help' for more information.
+georgeca@georgeca-VirtualBox:~$ date | cut -d " " -f 1
+Tue
+georgeca@georgeca-VirtualBox:~$ date | cut --delimiter=" " --fields=1 1>today.txt
+georgeca@georgeca-VirtualBox:~$ ls -lh
+total 44K
+-rw-rw-r-- 1 georgeca georgeca   33 May 13 09:53 date.txt
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Desktop
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Documents
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Downloads
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Music
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Pictures
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Public
+drwx------ 4 georgeca georgeca 4.0K May 12 15:00 snap
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Templates
+-rw-rw-r-- 1 georgeca georgeca    4 May 13 10:08 today.txt
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Videos
+georgeca@georgeca-VirtualBox:~$ cat today.txt 
+Tue
+georgeca@georgeca-VirtualBox:~$ date | cut 1>today.txt  --delimiter=" " --fields=1
+georgeca@georgeca-VirtualBox:~$ ls -lh
+total 44K
+-rw-rw-r-- 1 georgeca georgeca   33 May 13 09:53 date.txt
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Desktop
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Documents
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Downloads
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Music
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Pictures
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Public
+drwx------ 4 georgeca georgeca 4.0K May 12 15:00 snap
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Templates
+-rw-rw-r-- 1 georgeca georgeca    4 May 13 10:08 today.txt
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Videos
+georgeca@georgeca-VirtualBox:~$ cat today.txt 
+Tue
+georgeca@georgeca-VirtualBox:~$ date | cut --delimiter=" " 1>today.txt --fields=1
+georgeca@georgeca-VirtualBox:~$ cat today.txt
+Tue
