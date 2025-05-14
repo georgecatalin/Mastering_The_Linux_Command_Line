@@ -1,0 +1,240 @@
+georgeca@georgeca-VirtualBox:~$ mkdir -p A/B/C
+georgeca@georgeca-VirtualBox:~$ ls
+A  Desktop  Documents  Downloads  Music  Pictures  Public  snap  Templates  Videos
+georgeca@georgeca-VirtualBox:~$ mkdir brace_extension
+georgeca@georgeca-VirtualBox:~$ ls -lh
+total 44K
+drwxrwxr-x 3 georgeca georgeca 4.0K May 14 22:30 A
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:30 brace_extension
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Desktop
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Documents
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Downloads
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Music
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Pictures
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Public
+drwx------ 4 georgeca georgeca 4.0K May 14 21:00 snap
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Templates
+drwxr-xr-x 2 georgeca georgeca 4.0K May  5 13:27 Videos
+georgeca@georgeca-VirtualBox:~$ cd brace_extension/
+georgeca@georgeca-VirtualBox:~/brace_extension$ mkdir {jan,feb,march,april,may,jun,jul,aug,sep,oct,nov,dec}_{2020,2021}
+georgeca@georgeca-VirtualBox:~/brace_extension$ ls -lh
+total 96K
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 april_2020
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 april_2021
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 aug_2020
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 aug_2021
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 dec_2020
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 dec_2021
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 feb_2020
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 feb_2021
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 jan_2020
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 jan_2021
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 jul_2020
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 jul_2021
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 jun_2020
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 jun_2021
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 march_2020
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 march_2021
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 may_2020
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 may_2021
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 nov_2020
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 nov_2021
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 oct_2020
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 oct_2021
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 sep_2020
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 sep_2021
+georgeca@georgeca-VirtualBox:~/brace_extension$ mkdir {jan,feb,march,april,may,jun,jul,aug,sep,oct,nov,dec}_{2022..2025}
+georgeca@georgeca-VirtualBox:~/brace_extension$ ls -lh
+total 288K
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 april_2020
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 april_2021
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 april_2022
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 april_2023
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 april_2024
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 april_2025
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 aug_2020
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 aug_2021
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 aug_2022
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 aug_2023
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 aug_2024
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 aug_2025
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 dec_2020
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 dec_2021
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 dec_2022
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 dec_2023
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 dec_2024
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 dec_2025
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 feb_2020
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 feb_2021
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 feb_2022
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 feb_2023
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 feb_2024
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 feb_2025
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 jan_2020
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 jan_2021
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 jan_2022
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 jan_2023
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 jan_2024
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 jan_2025
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 jul_2020
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 jul_2021
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 jul_2022
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 jul_2023
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 jul_2024
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 jul_2025
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 jun_2020
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 jun_2021
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 jun_2022
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 jun_2023
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 jun_2024
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 jun_2025
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 march_2020
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 march_2021
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 march_2022
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 march_2023
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 march_2024
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 march_2025
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 may_2020
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 may_2021
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 may_2022
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 may_2023
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 may_2024
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 may_2025
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 nov_2020
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 nov_2021
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 nov_2022
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 nov_2023
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 nov_2024
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 nov_2025
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 oct_2020
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 oct_2021
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 oct_2022
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 oct_2023
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 oct_2024
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 oct_2025
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 sep_2020
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 sep_2021
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 sep_2022
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 sep_2023
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 sep_2024
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 sep_2025
+georgeca@georgeca-VirtualBox:~/brace_extension$ touch {jan,feb,march,april,may,jun,jul,aug,sep,oct,nov,dec}_{2022..2025}/file{1..178}.txt
+georgeca@georgeca-VirtualBox:~/brace_extension$ ls -lh
+total 288K
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 april_2020
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 april_2021
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 april_2022
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 april_2023
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 april_2024
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 april_2025
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 aug_2020
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 aug_2021
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 aug_2022
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 aug_2023
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 aug_2024
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 aug_2025
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 dec_2020
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 dec_2021
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 dec_2022
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 dec_2023
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 dec_2024
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 dec_2025
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 feb_2020
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 feb_2021
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 feb_2022
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 feb_2023
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 feb_2024
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 feb_2025
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 jan_2020
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 jan_2021
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 jan_2022
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 jan_2023
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 jan_2024
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 jan_2025
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 jul_2020
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 jul_2021
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 jul_2022
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 jul_2023
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 jul_2024
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 jul_2025
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 jun_2020
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 jun_2021
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 jun_2022
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 jun_2023
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 jun_2024
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 jun_2025
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 march_2020
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 march_2021
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 march_2022
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 march_2023
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 march_2024
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 march_2025
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 may_2020
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 may_2021
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 may_2022
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 may_2023
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 may_2024
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 may_2025
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 nov_2020
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 nov_2021
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 nov_2022
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 nov_2023
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 nov_2024
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 nov_2025
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 oct_2020
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 oct_2021
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 oct_2022
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 oct_2023
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 oct_2024
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 oct_2025
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 sep_2020
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:32 sep_2021
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 sep_2022
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 sep_2023
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 sep_2024
+drwxrwxr-x 2 georgeca georgeca 4.0K May 14 22:33 sep_2025
+georgeca@georgeca-VirtualBox:~/brace_extension$ ls sep_2025
+file100.txt  file112.txt  file124.txt  file136.txt  file148.txt  file15.txt   file171.txt  file21.txt  file33.txt  file45.txt  file57.txt  file69.txt  file80.txt  file92.txt
+file101.txt  file113.txt  file125.txt  file137.txt  file149.txt  file160.txt  file172.txt  file22.txt  file34.txt  file46.txt  file58.txt  file6.txt   file81.txt  file93.txt
+file102.txt  file114.txt  file126.txt  file138.txt  file14.txt   file161.txt  file173.txt  file23.txt  file35.txt  file47.txt  file59.txt  file70.txt  file82.txt  file94.txt
+file103.txt  file115.txt  file127.txt  file139.txt  file150.txt  file162.txt  file174.txt  file24.txt  file36.txt  file48.txt  file5.txt   file71.txt  file83.txt  file95.txt
+file104.txt  file116.txt  file128.txt  file13.txt   file151.txt  file163.txt  file175.txt  file25.txt  file37.txt  file49.txt  file60.txt  file72.txt  file84.txt  file96.txt
+file105.txt  file117.txt  file129.txt  file140.txt  file152.txt  file164.txt  file176.txt  file26.txt  file38.txt  file4.txt   file61.txt  file73.txt  file85.txt  file97.txt
+file106.txt  file118.txt  file12.txt   file141.txt  file153.txt  file165.txt  file177.txt  file27.txt  file39.txt  file50.txt  file62.txt  file74.txt  file86.txt  file98.txt
+file107.txt  file119.txt  file130.txt  file142.txt  file154.txt  file166.txt  file178.txt  file28.txt  file3.txt   file51.txt  file63.txt  file75.txt  file87.txt  file99.txt
+file108.txt  file11.txt   file131.txt  file143.txt  file155.txt  file167.txt  file17.txt   file29.txt  file40.txt  file52.txt  file64.txt  file76.txt  file88.txt  file9.txt
+file109.txt  file120.txt  file132.txt  file144.txt  file156.txt  file168.txt  file18.txt   file2.txt   file41.txt  file53.txt  file65.txt  file77.txt  file89.txt
+file10.txt   file121.txt  file133.txt  file145.txt  file157.txt  file169.txt  file19.txt   file30.txt  file42.txt  file54.txt  file66.txt  file78.txt  file8.txt
+file110.txt  file122.txt  file134.txt  file146.txt  file158.txt  file16.txt   file1.txt    file31.txt  file43.txt  file55.txt  file67.txt  file79.txt  file90.txt
+file111.txt  file123.txt  file135.txt  file147.txt  file159.txt  file170.txt  file20.txt   file32.txt  file44.txt  file56.txt  file68.txt  file7.txt   file91.txt
+georgeca@georgeca-VirtualBox:~/brace_extension$ cd ..
+georgeca@georgeca-VirtualBox:~$ ls -lh
+total 44K
+drwxrwxr-x  3 georgeca georgeca 4.0K May 14 22:30 A
+drwxrwxr-x 74 georgeca georgeca 4.0K May 14 22:32 brace_extension
+drwxr-xr-x  2 georgeca georgeca 4.0K May  5 13:27 Desktop
+drwxr-xr-x  2 georgeca georgeca 4.0K May  5 13:27 Documents
+drwxr-xr-x  2 georgeca georgeca 4.0K May  5 13:27 Downloads
+drwxr-xr-x  2 georgeca georgeca 4.0K May  5 13:27 Music
+drwxr-xr-x  2 georgeca georgeca 4.0K May  5 13:27 Pictures
+drwxr-xr-x  2 georgeca georgeca 4.0K May  5 13:27 Public
+drwx------  4 georgeca georgeca 4.0K May 14 21:00 snap
+drwxr-xr-x  2 georgeca georgeca 4.0K May  5 13:27 Templates
+drwxr-xr-x  2 georgeca georgeca 4.0K May  5 13:27 Videos
+georgeca@georgeca-VirtualBox:~$ touch file{A,B,C}.text
+georgeca@georgeca-VirtualBox:~$ ls -lh
+total 44K
+drwxrwxr-x  3 georgeca georgeca 4.0K May 14 22:30 A
+drwxrwxr-x 74 georgeca georgeca 4.0K May 14 22:32 brace_extension
+drwxr-xr-x  2 georgeca georgeca 4.0K May  5 13:27 Desktop
+drwxr-xr-x  2 georgeca georgeca 4.0K May  5 13:27 Documents
+drwxr-xr-x  2 georgeca georgeca 4.0K May  5 13:27 Downloads
+-rw-rw-r--  1 georgeca georgeca    0 May 14 22:35 fileA.text
+-rw-rw-r--  1 georgeca georgeca    0 May 14 22:35 fileB.text
+-rw-rw-r--  1 georgeca georgeca    0 May 14 22:35 fileC.text
+drwxr-xr-x  2 georgeca georgeca 4.0K May  5 13:27 Music
+drwxr-xr-x  2 georgeca georgeca 4.0K May  5 13:27 Pictures
+drwxr-xr-x  2 georgeca georgeca 4.0K May  5 13:27 Public
+drwx------  4 georgeca georgeca 4.0K May 14 21:00 snap
+drwxr-xr-x  2 georgeca georgeca 4.0K May  5 13:27 Templates
+drwxr-xr-x  2 georgeca georgeca 4.0K May  5 13:27 Videos
