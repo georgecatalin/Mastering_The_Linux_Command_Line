@@ -1,0 +1,28 @@
+georgeca@georgeca-VirtualBox:~$ pwd
+/home/georgeca
+georgeca@georgeca-VirtualBox:~$ cd D
+Desktop/   Documents/ Downloads/ 
+georgeca@georgeca-VirtualBox:~$ cd Downloads/
+georgeca@georgeca-VirtualBox:~/Downloads$ cd ~
+georgeca@georgeca-VirtualBox:~$ pwd
+/home/georgeca
+georgeca@georgeca-VirtualBox:~$ cd 
+.cache/    Desktop/   Downloads/ Music/     Public/    .ssh/      Videos/
+.config/   Documents/ .local/    Pictures/  snap/      Templates/ 
+georgeca@georgeca-VirtualBox:~$ cd 
+.cache/    Desktop/   Downloads/ Music/     Public/    .ssh/      Videos/
+.config/   Documents/ .local/    Pictures/  snap/      Templates/ 
+georgeca@georgeca-VirtualBox:~$ cd D
+Desktop/   Documents/ Downloads/ 
+georgeca@georgeca-VirtualBox:~$ cd D
+Desktop/   Documents/ Downloads/ 
+georgeca@georgeca-VirtualBox:~$ cd Do
+Documents/ Downloads/ 
+georgeca@georgeca-VirtualBox:~$ cd Documents/
+georgeca@georgeca-VirtualBox:~/Documents$ cd 
+georgeca@georgeca-VirtualBox:~$ pwd
+/home/georgeca
+georgeca@georgeca-VirtualBox:~$ cd /
+georgeca@georgeca-VirtualBox:/$ pwd
+/
+georgeca@georgeca-VirtualBox:/$ 
