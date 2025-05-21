@@ -1,0 +1,66 @@
+georgeca@georgeca-VirtualBox:~$ cd bin
+georgeca@georgeca-VirtualBox:~/bin$ ls .
+my_second_bash.sh
+georgeca@georgeca-VirtualBox:~/bin$ nano backup.sh
+georgeca@georgeca-VirtualBox:~/bin$ ls -lh .
+total 8.0K
+-rw-rw-r-- 1 georgeca georgeca 182 May 21 15:42 backup.sh
+-rwxrwxr-x 1 georgeca georgeca 169 May 21 14:55 my_second_bash.sh
+georgeca@georgeca-VirtualBox:~/bin$ mkdir backups
+georgeca@georgeca-VirtualBox:~/bin$ ls -lh
+total 12K
+drwxrwxr-x 2 georgeca georgeca 4.0K May 21 15:42 backups
+-rw-rw-r-- 1 georgeca georgeca  182 May 21 15:42 backup.sh
+-rwxrwxr-x 1 georgeca georgeca  169 May 21 14:55 my_second_bash.sh
+georgeca@georgeca-VirtualBox:~/bin$ crontab -e
+no crontab for georgeca - using an empty one
+
+Select an editor.  To change later, run 'select-editor'.
+  1. /bin/nano        <---- easiest
+  2. /usr/bin/vim.tiny
+  3. /bin/ed
+
+Choose 1-3 [1]: 1
+crontab: installing new crontab
+georgeca@georgeca-VirtualBox:~/bin$ crontab -e
+crontab: installing new crontab
+georgeca@georgeca-VirtualBox:~/bin$ crontab -e
+crontab: installing new crontab
+georgeca@georgeca-VirtualBox:~/bin$ ls
+backups  backup.sh  my_second_bash.sh
+georgeca@georgeca-VirtualBox:~/bin$ cd backups/
+georgeca@georgeca-VirtualBox:~/bin/backups$ ls
+georgeca@georgeca-VirtualBox:~/bin/backups$ ls
+georgeca@georgeca-VirtualBox:~/bin/backups$ ls
+georgeca@georgeca-VirtualBox:~/bin/backups$ ls
+logger.log
+georgeca@georgeca-VirtualBox:~/bin/backups$ cat logger.log 
+Hello, there at- Wed May 21 03:47:01 PM EEST 2025
+georgeca@georgeca-VirtualBox:~/bin/backups$ cat logger.log 
+Hello, there at- Wed May 21 03:47:01 PM EEST 2025
+georgeca@georgeca-VirtualBox:~/bin/backups$ cat logger.log 
+Hello, there at- Wed May 21 03:47:01 PM EEST 2025
+georgeca@georgeca-VirtualBox:~/bin/backups$ cat logger.log 
+Hello, there at- Wed May 21 03:47:01 PM EEST 2025
+georgeca@georgeca-VirtualBox:~/bin/backups$ cat logger.log 
+Hello, there at- Wed May 21 03:47:01 PM EEST 2025
+georgeca@georgeca-VirtualBox:~/bin/backups$ cat logger.log 
+Hello, there at- Wed May 21 03:47:01 PM EEST 2025
+georgeca@georgeca-VirtualBox:~/bin/backups$ cat logger.log 
+Hello, there at- Wed May 21 03:47:01 PM EEST 2025
+georgeca@georgeca-VirtualBox:~/bin/backups$ cat logger.log 
+Hello, there at- Wed May 21 03:47:01 PM EEST 2025
+georgeca@georgeca-VirtualBox:~/bin/backups$ cat logger.log 
+Hello, there at- Wed May 21 03:48:01 PM EEST 2025
+georgeca@georgeca-VirtualBox:~/bin/backups$ cat logger.log 
+Hello, there at- Wed May 21 03:48:01 PM EEST 2025
+georgeca@georgeca-VirtualBox:~/bin/backups$ cat logger.log 
+Hello, there at- Wed May 21 03:48:01 PM EEST 2025
+georgeca@georgeca-VirtualBox:~/bin/backups$ cat logger.log 
+Hello, there at- Wed May 21 03:48:01 PM EEST 2025
+georgeca@georgeca-VirtualBox:~/bin/backups$ cat logger.log 
+Hello, there at- Wed May 21 03:48:01 PM EEST 2025
+georgeca@georgeca-VirtualBox:~/bin/backups$ cat logger.log 
+Hello, there at- Wed May 21 03:48:01 PM EEST 2025
+georgeca@georgeca-VirtualBox:~/bin/backups$ crontab -e
+crontab: installing new crontab
