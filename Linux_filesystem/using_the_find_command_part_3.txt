@@ -1,0 +1,98 @@
+georgeca@georgeca-VirtualBox:~/Desktop$ cd haystack/
+georgeca@georgeca-VirtualBox:~/Desktop/haystack$ mkdir folder_{1..500}
+georgeca@georgeca-VirtualBox:~/Desktop/haystack$ ls
+folder_1    folder_175  folder_250  folder_326  folder_401  folder_478
+folder_10   folder_176  folder_251  folder_327  folder_402  folder_479
+folder_100  folder_177  folder_252  folder_328  folder_403  folder_48
+folder_101  folder_178  folder_253  folder_329  folder_404  folder_480
+folder_102  folder_179  folder_254  folder_33   folder_405  folder_481
+folder_103  folder_18   folder_255  folder_330  folder_406  folder_482
+folder_104  folder_180  folder_256  folder_331  folder_407  folder_483
+folder_105  folder_181  folder_257  folder_332  folder_408  folder_484
+folder_106  folder_182  folder_258  folder_333  folder_409  folder_485
+folder_107  folder_183  folder_259  folder_334  folder_41   folder_486
+folder_108  folder_184  folder_26   folder_335  folder_410  folder_487
+folder_109  folder_185  folder_260  folder_336  folder_411  folder_488
+folder_11   folder_186  folder_261  folder_337  folder_412  folder_489
+folder_110  folder_187  folder_262  folder_338  folder_413  folder_49
+folder_111  folder_188  folder_263  folder_339  folder_414  folder_490
+folder_112  folder_189  folder_264  folder_34   folder_415  folder_491
+folder_113  folder_19   folder_265  folder_340  folder_416  folder_492
+folder_114  folder_190  folder_266  folder_341  folder_417  folder_493
+folder_115  folder_191  folder_267  folder_342  folder_418  folder_494
+folder_116  folder_192  folder_268  folder_343  folder_419  folder_495
+folder_117  folder_193  folder_269  folder_344  folder_42   folder_496
+folder_118  folder_194  folder_27   folder_345  folder_420  folder_497
+folder_119  folder_195  folder_270  folder_346  folder_421  folder_498
+folder_12   folder_196  folder_271  folder_347  folder_422  folder_499
+folder_120  folder_197  folder_272  folder_348  folder_423  folder_5
+folder_121  folder_198  folder_273  folder_349  folder_424  folder_50
+folder_122  folder_199  folder_274  folder_35   folder_425  folder_500
+folder_123  folder_2    folder_275  folder_350  folder_426  folder_51
+folder_124  folder_20   folder_276  folder_351  folder_427  folder_52
+folder_125  folder_200  folder_277  folder_352  folder_428  folder_53
+folder_126  folder_201  folder_278  folder_353  folder_429  folder_54
+folder_127  folder_202  folder_279  folder_354  folder_43   folder_55
+folder_128  folder_203  folder_28   folder_355  folder_430  folder_56
+folder_129  folder_204  folder_280  folder_356  folder_431  folder_57
+folder_13   folder_205  folder_281  folder_357  folder_432  folder_58
+folder_130  folder_206  folder_282  folder_358  folder_433  folder_59
+folder_131  folder_207  folder_283  folder_359  folder_434  folder_6
+folder_132  folder_208  folder_284  folder_36   folder_435  folder_60
+folder_133  folder_209  folder_285  folder_360  folder_436  folder_61
+folder_134  folder_21   folder_286  folder_361  folder_437  folder_62
+folder_135  folder_210  folder_287  folder_362  folder_438  folder_63
+folder_136  folder_211  folder_288  folder_363  folder_439  folder_64
+folder_137  folder_212  folder_289  folder_364  folder_44   folder_65
+folder_138  folder_213  folder_29   folder_365  folder_440  folder_66
+folder_139  folder_214  folder_290  folder_366  folder_441  folder_67
+folder_14   folder_215  folder_291  folder_367  folder_442  folder_68
+folder_140  folder_216  folder_292  folder_368  folder_443  folder_69
+folder_141  folder_217  folder_293  folder_369  folder_444  folder_7
+folder_142  folder_218  folder_294  folder_37   folder_445  folder_70
+folder_143  folder_219  folder_295  folder_370  folder_446  folder_71
+folder_144  folder_22   folder_296  folder_371  folder_447  folder_72
+folder_145  folder_220  folder_297  folder_372  folder_448  folder_73
+folder_146  folder_221  folder_298  folder_373  folder_449  folder_74
+folder_147  folder_222  folder_299  folder_374  folder_45   folder_75
+folder_148  folder_223  folder_3    folder_375  folder_450  folder_76
+folder_149  folder_224  folder_30   folder_376  folder_451  folder_77
+folder_15   folder_225  folder_300  folder_377  folder_452  folder_78
+folder_150  folder_226  folder_301  folder_378  folder_453  folder_79
+folder_151  folder_227  folder_302  folder_379  folder_454  folder_8
+folder_152  folder_228  folder_303  folder_38   folder_455  folder_80
+folder_153  folder_229  folder_304  folder_380  folder_456  folder_81
+folder_154  folder_23   folder_305  folder_381  folder_457  folder_82
+folder_155  folder_230  folder_306  folder_382  folder_458  folder_83
+folder_156  folder_231  folder_307  folder_383  folder_459  folder_84
+folder_157  folder_232  folder_308  folder_384  folder_46   folder_85
+folder_158  folder_233  folder_309  folder_385  folder_460  folder_86
+folder_159  folder_234  folder_31   folder_386  folder_461  folder_87
+folder_16   folder_235  folder_310  folder_387  folder_462  folder_88
+folder_160  folder_236  folder_311  folder_388  folder_463  folder_89
+folder_161  folder_237  folder_312  folder_389  folder_464  folder_9
+folder_162  folder_238  folder_313  folder_39   folder_465  folder_90
+folder_163  folder_239  folder_314  folder_390  folder_466  folder_91
+folder_164  folder_24   folder_315  folder_391  folder_467  folder_92
+folder_165  folder_240  folder_316  folder_392  folder_468  folder_93
+folder_166  folder_241  folder_317  folder_393  folder_469  folder_94
+folder_167  folder_242  folder_318  folder_394  folder_47   folder_95
+folder_168  folder_243  folder_319  folder_395  folder_470  folder_96
+folder_169  folder_244  folder_32   folder_396  folder_471  folder_97
+folder_17   folder_245  folder_320  folder_397  folder_472  folder_98
+folder_170  folder_246  folder_321  folder_398  folder_473  folder_99
+folder_171  folder_247  folder_322  folder_399  folder_474
+folder_172  folder_248  folder_323  folder_4    folder_475
+folder_173  folder_249  folder_324  folder_40   folder_476
+folder_174  folder_25   folder_325  folder_400  folder_477
+georgeca@georgeca-VirtualBox:~/Desktop/haystack$ touch folder_{1..500}/file_{1..100}
+georgeca@georgeca-VirtualBox:~/Desktop/haystack$ touch folder_100/file_x
+georgeca@georgeca-VirtualBox:~/Desktop/haystack$ man locate
+georgeca@georgeca-VirtualBox:~/Desktop/haystack$ find . -type f -name "file_x"
+./folder_100/file_x
+georgeca@georgeca-VirtualBox:~/Desktop/haystack$ find . -type f -name "file_x" -exec mv {} .. \;
+georgeca@georgeca-VirtualBox:~/Desktop/haystack$ ls ..
+file_x  haystack
+georgeca@georgeca-VirtualBox:~/Desktop/haystack$ find . -type f -name "file_x" -ok mv {} .. \;
+georgeca@georgeca-VirtualBox:~/Desktop/haystack$ ls ..
+file_x  haystack
