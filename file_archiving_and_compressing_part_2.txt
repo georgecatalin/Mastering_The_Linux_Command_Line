@@ -1,0 +1,91 @@
+georgeca@georgeca-VirtualBox:~/Desktop$ ls -lh
+total 24K
+-rw-rw-r-- 1 georgeca georgeca 10K May 21 12:32 my_tarball_file.tar
+-rw-rw-r-- 1 georgeca georgeca 201 May 21 11:50 numbers0-9.txt
+-rw-rw-r-- 1 georgeca georgeca 566 May 21 11:49 numbers.txt
+-rw-rw-r-- 1 georgeca georgeca 934 May 21 11:50 words.txt
+georgeca@georgeca-VirtualBox:~/Desktop$ rm my_tarball_file.tar 
+georgeca@georgeca-VirtualBox:~/Desktop$ ls -lh
+total 12K
+-rw-rw-r-- 1 georgeca georgeca 201 May 21 11:50 numbers0-9.txt
+-rw-rw-r-- 1 georgeca georgeca 566 May 21 11:49 numbers.txt
+-rw-rw-r-- 1 georgeca georgeca 934 May 21 11:50 words.txt
+georgeca@georgeca-VirtualBox:~/Desktop$ tar -cvfz my_gzip_tarball.tar.gz numbers* words.txt 
+tar: my_gzip_tarball.tar.gz: Cannot stat: No such file or directory
+numbers0-9.txt
+numbers.txt
+words.txt
+tar: Exiting with failure status due to previous errors
+georgeca@georgeca-VirtualBox:~/Desktop$ tar -czvf my_tarball.tar.gzip words.txt numbers.txt numbers0-9.txt 
+words.txt
+numbers.txt
+numbers0-9.txt
+georgeca@georgeca-VirtualBox:~/Desktop$ ls -lh
+total 28K
+-rw-rw-r-- 1 georgeca georgeca 1.2K May 21 13:43 my_tarball.tar.gzip
+-rw-rw-r-- 1 georgeca georgeca  201 May 21 11:50 numbers0-9.txt
+-rw-rw-r-- 1 georgeca georgeca  566 May 21 11:49 numbers.txt
+-rw-rw-r-- 1 georgeca georgeca  934 May 21 11:50 words.txt
+-rw-rw-r-- 1 georgeca georgeca  10K May 21 13:42 z
+georgeca@georgeca-VirtualBox:~/Desktop$ rm *.txt
+georgeca@georgeca-VirtualBox:~/Desktop$ ls -lh
+total 16K
+-rw-rw-r-- 1 georgeca georgeca 1.2K May 21 13:43 my_tarball.tar.gzip
+-rw-rw-r-- 1 georgeca georgeca  10K May 21 13:42 z
+georgeca@georgeca-VirtualBox:~/Desktop$ rm z
+georgeca@georgeca-VirtualBox:~/Desktop$ ls
+my_tarball.tar.gzip
+georgeca@georgeca-VirtualBox:~/Desktop$ tar -xvfz my_tarball.tar.gzip
+tar: z: Cannot open: No such file or directory
+tar: Error is not recoverable: exiting now
+georgeca@georgeca-VirtualBox:~/Desktop$ ls
+my_tarball.tar.gzip
+georgeca@georgeca-VirtualBox:~/Desktop$ tar -xzvf my_tarball.tar.gzip
+words.txt
+numbers.txt
+numbers0-9.txt
+georgeca@georgeca-VirtualBox:~/Desktop$ ls -lh
+total 16K
+-rw-rw-r-- 1 georgeca georgeca 1.2K May 21 13:43 my_tarball.tar.gzip
+-rw-rw-r-- 1 georgeca georgeca  201 May 21 11:50 numbers0-9.txt
+-rw-rw-r-- 1 georgeca georgeca  566 May 21 11:49 numbers.txt
+-rw-rw-r-- 1 georgeca georgeca  934 May 21 11:50 words.txt
+georgeca@georgeca-VirtualBox:~/Desktop$ rm my_tarball.tar.gzip 
+georgeca@georgeca-VirtualBox:~/Desktop$ ls -lh
+total 12K
+-rw-rw-r-- 1 georgeca georgeca 201 May 21 11:50 numbers0-9.txt
+-rw-rw-r-- 1 georgeca georgeca 566 May 21 11:49 numbers.txt
+-rw-rw-r-- 1 georgeca georgeca 934 May 21 11:50 words.txt
+georgeca@georgeca-VirtualBox:~/Desktop$ tar -cjvf my_bzip2_tarball.bzip2 numbers.txt numbers0-9.txt words.txt 
+numbers.txt
+numbers0-9.txt
+words.txt
+georgeca@georgeca-VirtualBox:~/Desktop$ ls -lh
+total 16K
+-rw-rw-r-- 1 georgeca georgeca 1.2K May 21 13:46 my_bzip2_tarball.bzip2
+-rw-rw-r-- 1 georgeca georgeca  201 May 21 11:50 numbers0-9.txt
+-rw-rw-r-- 1 georgeca georgeca  566 May 21 11:49 numbers.txt
+-rw-rw-r-- 1 georgeca georgeca  934 May 21 11:50 words.txt
+georgeca@georgeca-VirtualBox:~/Desktop$ rm *.txt
+georgeca@georgeca-VirtualBox:~/Desktop$ ls -lh
+total 4.0K
+-rw-rw-r-- 1 georgeca georgeca 1.2K May 21 13:46 my_bzip2_tarball.bzip2
+georgeca@georgeca-VirtualBox:~/Desktop$ tar -xjvf my_zip2_tarball.bzip2
+tar (child): my_zip2_tarball.bzip2: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+georgeca@georgeca-VirtualBox:~/Desktop$ ls -lh
+total 4.0K
+-rw-rw-r-- 1 georgeca georgeca 1.2K May 21 13:46 my_bzip2_tarball.bzip2
+georgeca@georgeca-VirtualBox:~/Desktop$ ^C
+georgeca@georgeca-VirtualBox:~/Desktop$ tar -xjvf my_bzip2_tarball.bzip2
+numbers.txt
+numbers0-9.txt
+words.txt
+georgeca@georgeca-VirtualBox:~/Desktop$ ls -lh
+total 16K
+-rw-rw-r-- 1 georgeca georgeca 1.2K May 21 13:46 my_bzip2_tarball.bzip2
+-rw-rw-r-- 1 georgeca georgeca  201 May 21 11:50 numbers0-9.txt
+-rw-rw-r-- 1 georgeca georgeca  566 May 21 11:49 numbers.txt
+-rw-rw-r-- 1 georgeca georgeca  934 May 21 11:50 words.txt
