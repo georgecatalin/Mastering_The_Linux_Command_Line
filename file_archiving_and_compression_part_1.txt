@@ -1,0 +1,90 @@
+georgeca@georgeca-VirtualBox:~/Desktop$ ls
+numbers0-9.txt  numbers.txt  words.txt
+georgeca@georgeca-VirtualBox:~/Desktop$ ls -lh
+total 12K
+-rw-rw-r-- 1 georgeca georgeca 201 May 21 11:50 numbers0-9.txt
+-rw-rw-r-- 1 georgeca georgeca 566 May 21 11:49 numbers.txt
+-rw-rw-r-- 1 georgeca georgeca 934 May 21 11:50 words.txt
+georgeca@georgeca-VirtualBox:~/Desktop$ tar -cvf my_tarball_file.tar numbers* words.txt 
+numbers0-9.txt
+numbers.txt
+words.txt
+georgeca@georgeca-VirtualBox:~/Desktop$ ls -lh
+total 24K
+-rw-rw-r-- 1 georgeca georgeca 10K May 21 12:32 my_tarball_file.tar
+-rw-rw-r-- 1 georgeca georgeca 201 May 21 11:50 numbers0-9.txt
+-rw-rw-r-- 1 georgeca georgeca 566 May 21 11:49 numbers.txt
+-rw-rw-r-- 1 georgeca georgeca 934 May 21 11:50 words.txt
+georgeca@georgeca-VirtualBox:~/Desktop$ tar -tf my_tarball_file.tar 
+numbers0-9.txt
+numbers.txt
+words.txt
+georgeca@georgeca-VirtualBox:~/Desktop$ tar xvf my_tarball_file.tar 
+numbers0-9.txt
+numbers.txt
+words.txt
+georgeca@georgeca-VirtualBox:~/Desktop$ ls -lh
+total 24K
+-rw-rw-r-- 1 georgeca georgeca 10K May 21 12:32 my_tarball_file.tar
+-rw-rw-r-- 1 georgeca georgeca 201 May 21 11:50 numbers0-9.txt
+-rw-rw-r-- 1 georgeca georgeca 566 May 21 11:49 numbers.txt
+-rw-rw-r-- 1 georgeca georgeca 934 May 21 11:50 words.txt
+georgeca@georgeca-VirtualBox:~/Desktop$ rm numbers*
+georgeca@georgeca-VirtualBox:~/Desktop$ rm words.txt 
+georgeca@georgeca-VirtualBox:~/Desktop$ ls -lh
+total 12K
+-rw-rw-r-- 1 georgeca georgeca 10K May 21 12:32 my_tarball_file.tar
+georgeca@georgeca-VirtualBox:~/Desktop$ tar -xvf my_tarball_file.tar 
+numbers0-9.txt
+numbers.txt
+words.txt
+georgeca@georgeca-VirtualBox:~/Desktop$ ls -lh
+total 24K
+-rw-rw-r-- 1 georgeca georgeca 10K May 21 12:32 my_tarball_file.tar
+-rw-rw-r-- 1 georgeca georgeca 201 May 21 11:50 numbers0-9.txt
+-rw-rw-r-- 1 georgeca georgeca 566 May 21 11:49 numbers.txt
+-rw-rw-r-- 1 georgeca georgeca 934 May 21 11:50 words.txt
+georgeca@georgeca-VirtualBox:~/Desktop$ gzip my_tarball_file.tar 
+georgeca@georgeca-VirtualBox:~/Desktop$ ls -lh .
+total 16K
+-rw-rw-r-- 1 georgeca georgeca 1.2K May 21 12:32 my_tarball_file.tar.gz
+-rw-rw-r-- 1 georgeca georgeca  201 May 21 11:50 numbers0-9.txt
+-rw-rw-r-- 1 georgeca georgeca  566 May 21 11:49 numbers.txt
+-rw-rw-r-- 1 georgeca georgeca  934 May 21 11:50 words.txt
+georgeca@georgeca-VirtualBox:~/Desktop$ gunzip my_tarball_file.tar.gz 
+georgeca@georgeca-VirtualBox:~/Desktop$ ls -lh
+total 24K
+-rw-rw-r-- 1 georgeca georgeca 10K May 21 12:32 my_tarball_file.tar
+-rw-rw-r-- 1 georgeca georgeca 201 May 21 11:50 numbers0-9.txt
+-rw-rw-r-- 1 georgeca georgeca 566 May 21 11:49 numbers.txt
+-rw-rw-r-- 1 georgeca georgeca 934 May 21 11:50 words.txt
+georgeca@georgeca-VirtualBox:~/Desktop$ bzip2 my_tarball_file.tar 
+georgeca@georgeca-VirtualBox:~/Desktop$ ls -lh
+total 16K
+-rw-rw-r-- 1 georgeca georgeca 1.1K May 21 12:32 my_tarball_file.tar.bz2
+-rw-rw-r-- 1 georgeca georgeca  201 May 21 11:50 numbers0-9.txt
+-rw-rw-r-- 1 georgeca georgeca  566 May 21 11:49 numbers.txt
+-rw-rw-r-- 1 georgeca georgeca  934 May 21 11:50 words.txt
+georgeca@georgeca-VirtualBox:~/Desktop$ bunzip2 my_tarball_file.tar.bz2 
+georgeca@georgeca-VirtualBox:~/Desktop$ ls -lh
+total 24K
+-rw-rw-r-- 1 georgeca georgeca 10K May 21 12:32 my_tarball_file.tar
+-rw-rw-r-- 1 georgeca georgeca 201 May 21 11:50 numbers0-9.txt
+-rw-rw-r-- 1 georgeca georgeca 566 May 21 11:49 numbers.txt
+-rw-rw-r-- 1 georgeca georgeca 934 May 21 11:50 words.txt
+georgeca@georgeca-VirtualBox:~/Desktop$ ls -lh
+total 24K
+-rw-rw-r-- 1 georgeca georgeca 10K May 21 12:32 my_tarball_file.tar
+-rw-rw-r-- 1 georgeca georgeca 201 May 21 11:50 numbers0-9.txt
+-rw-rw-r-- 1 georgeca georgeca 566 May 21 11:49 numbers.txt
+-rw-rw-r-- 1 georgeca georgeca 934 May 21 11:50 words.txt
+georgeca@georgeca-VirtualBox:~/Desktop$ tar -xvf my_tarball_file.tar 
+numbers0-9.txt
+numbers.txt
+words.txt
+georgeca@georgeca-VirtualBox:~/Desktop$ ls -lh
+total 24K
+-rw-rw-r-- 1 georgeca georgeca 10K May 21 12:32 my_tarball_file.tar
+-rw-rw-r-- 1 georgeca georgeca 201 May 21 11:50 numbers0-9.txt
+-rw-rw-r-- 1 georgeca georgeca 566 May 21 11:49 numbers.txt
+-rw-rw-r-- 1 georgeca georgeca 934 May 21 11:50 words.txt
