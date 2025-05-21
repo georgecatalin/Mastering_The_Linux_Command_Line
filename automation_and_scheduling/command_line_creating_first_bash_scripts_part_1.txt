@@ -1,0 +1,296 @@
+georgeca@georgeca-VirtualBox:~/Desktop$ ls -lh
+total 16K
+-rw-rw-r-- 1 georgeca georgeca 1.2K May 21 13:46 my_bzip2_tarball.bzip2
+-rw-rw-r-- 1 georgeca georgeca  201 May 21 11:50 numbers0-9.txt
+-rw-rw-r-- 1 georgeca georgeca  566 May 21 11:49 numbers.txt
+-rw-rw-r-- 1 georgeca georgeca  934 May 21 11:50 words.txt
+georgeca@georgeca-VirtualBox:~/Desktop$ rm my_bzip2_tarball.bzip2 
+georgeca@georgeca-VirtualBox:~/Desktop$ ls -lh
+total 12K
+-rw-rw-r-- 1 georgeca georgeca 201 May 21 11:50 numbers0-9.txt
+-rw-rw-r-- 1 georgeca georgeca 566 May 21 11:49 numbers.txt
+-rw-rw-r-- 1 georgeca georgeca 934 May 21 11:50 words.txt
+georgeca@georgeca-VirtualBox:~/Desktop$ which bash
+/usr/bin/bash
+georgeca@georgeca-VirtualBox:~/Desktop$ which python
+georgeca@georgeca-VirtualBox:~/Desktop$ which python3
+/usr/bin/python3
+georgeca@georgeca-VirtualBox:~/Desktop$ nano
+georgeca@georgeca-VirtualBox:~/Desktop$ ls -lh
+total 16K
+-rw-rw-r-- 1 georgeca georgeca 133 May 21 14:33 my_first_bash.sh
+-rw-rw-r-- 1 georgeca georgeca 201 May 21 11:50 numbers0-9.txt
+-rw-rw-r-- 1 georgeca georgeca 566 May 21 11:49 numbers.txt
+-rw-rw-r-- 1 georgeca georgeca 934 May 21 11:50 words.txt
+georgeca@georgeca-VirtualBox:~/Desktop$ bash my_first_bash.sh 
+This is a refresher for a Bash script
+my_first_bash.sh: line 5: cd: /home/georgeca/Desktop/PLayground: No such file or directory
+georgeca@georgeca-VirtualBox:~/Desktop$ nanon my_first_bash.sh 
+Command 'nanon' not found, did you mean:
+  command 'nano' from snap nano (7.2+pkg-4057)
+  command 'nano' from deb nano (7.2-2ubuntu0.1)
+  command 'nfanon' from deb nfdump (1.7.3-1)
+  command 'nanoc' from deb nanoc (4.12.18-1)
+See 'snap info <snapname>' for additional versions.
+georgeca@georgeca-VirtualBox:~/Desktop$ nano my_first_bash.sh 
+georgeca@georgeca-VirtualBox:~/Desktop$ bash my_first_bash.sh 
+This is a refresher for a Bash script
+mkdir: cannot create directory ‘/home/georgeca/Desktop/Playground’: File exists
+georgeca@georgeca-VirtualBox:~/Desktop$ rm Playground/
+rm: cannot remove 'Playground/': Is a directory
+georgeca@georgeca-VirtualBox:~/Desktop$ rm -rf Playground/
+georgeca@georgeca-VirtualBox:~/Desktop$ bash my_first_bash.sh 
+This is a refresher for a Bash script
+georgeca@georgeca-VirtualBox:~/Desktop$ ls -lh
+total 20K
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_100.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_101.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_102.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_103.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_104.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_105.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_106.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_107.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_108.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_109.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_10.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_110.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_111.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_112.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_113.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_114.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_115.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_116.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_117.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_118.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_119.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_11.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_120.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_121.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_122.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_123.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_124.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_125.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_126.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_127.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_128.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_129.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_12.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_130.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_131.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_132.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_133.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_134.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_135.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_136.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_137.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_138.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_139.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_13.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_140.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_141.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_142.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_143.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_144.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_145.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_146.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_147.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_148.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_149.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_14.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_150.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_151.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_152.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_153.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_154.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_155.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_156.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_157.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_158.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_159.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_15.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_160.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_161.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_162.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_163.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_164.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_165.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_166.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_167.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_168.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_169.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_16.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_170.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_171.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_172.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_173.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_174.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_175.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_176.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_177.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_178.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_179.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_17.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_180.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_181.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_182.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_183.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_184.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_185.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_186.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_187.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_188.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_189.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_18.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_190.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_191.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_192.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_193.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_194.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_195.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_196.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_197.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_198.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_199.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_19.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_1.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_200.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_20.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_21.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_22.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_23.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_24.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_25.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_26.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_27.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_28.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_29.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_2.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_30.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_31.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_32.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_33.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_34.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_35.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_36.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_37.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_38.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_39.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_3.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_40.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_41.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_42.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_43.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_44.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_45.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_46.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_47.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_48.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_49.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_4.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_50.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_51.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_52.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_53.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_54.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_55.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_56.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_57.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_58.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_59.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_5.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_60.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_61.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_62.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_63.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_64.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_65.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_66.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_67.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_68.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_69.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_6.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_70.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_71.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_72.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_73.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_74.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_75.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_76.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_77.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_78.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_79.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_7.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_80.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_81.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_82.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_83.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_84.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_85.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_86.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_87.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_88.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_89.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_8.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_90.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_91.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_92.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_93.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_94.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_95.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_96.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_97.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_98.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_99.txt
+-rw-rw-r-- 1 georgeca georgeca    0 May 21 14:33 file_9.txt
+-rw-rw-r-- 1 georgeca georgeca  133 May 21 14:33 my_first_bash.sh
+-rw-rw-r-- 1 georgeca georgeca  201 May 21 11:50 numbers0-9.txt
+-rw-rw-r-- 1 georgeca georgeca  566 May 21 11:49 numbers.txt
+drwxrwxr-x 2 georgeca georgeca 4.0K May 21 14:34 Playground
+-rw-rw-r-- 1 georgeca georgeca  934 May 21 11:50 words.txt
+georgeca@georgeca-VirtualBox:~/Desktop$ rm file*
+georgeca@georgeca-VirtualBox:~/Desktop$ ls -lh
+total 20K
+-rw-rw-r-- 1 georgeca georgeca  133 May 21 14:33 my_first_bash.sh
+-rw-rw-r-- 1 georgeca georgeca  201 May 21 11:50 numbers0-9.txt
+-rw-rw-r-- 1 georgeca georgeca  566 May 21 11:49 numbers.txt
+drwxrwxr-x 2 georgeca georgeca 4.0K May 21 14:34 Playground
+-rw-rw-r-- 1 georgeca georgeca  934 May 21 11:50 words.txt
+georgeca@georgeca-VirtualBox:~/Desktop$ nano my_first_bash.sh 
+georgeca@georgeca-VirtualBox:~/Desktop$ ls -lh
+total 20K
+-rw-rw-r-- 1 georgeca georgeca  134 May 21 14:35 my_first_bash.sh
+-rw-rw-r-- 1 georgeca georgeca  201 May 21 11:50 numbers0-9.txt
+-rw-rw-r-- 1 georgeca georgeca  566 May 21 11:49 numbers.txt
+drwxrwxr-x 2 georgeca georgeca 4.0K May 21 14:34 Playground
+-rw-rw-r-- 1 georgeca georgeca  934 May 21 11:50 words.txt
+georgeca@georgeca-VirtualBox:~/Desktop$ bash my_first_bash.sh 
+This is a refresher for a Bash script
+mkdir: cannot create directory ‘/home/georgeca/Desktop/Playground’: File exists
+georgeca@georgeca-VirtualBox:~/Desktop$ rm -rf Playground/
+georgeca@georgeca-VirtualBox:~/Desktop$ bash my_first_bash.sh 
+This is a refresher for a Bash script
+georgeca@georgeca-VirtualBox:~/Desktop$ ls -lh
+total 20K
+-rw-rw-r-- 1 georgeca georgeca  134 May 21 14:35 my_first_bash.sh
+-rw-rw-r-- 1 georgeca georgeca  201 May 21 11:50 numbers0-9.txt
+-rw-rw-r-- 1 georgeca georgeca  566 May 21 11:49 numbers.txt
+drwxrwxr-x 2 georgeca georgeca 4.0K May 21 14:35 Playground
+-rw-rw-r-- 1 georgeca georgeca  934 May 21 11:50 words.txt
+georgeca@georgeca-VirtualBox:~/Desktop$ ls Playground/
+file_100.txt  file_115.txt  file_12.txt   file_144.txt  file_159.txt  file_173.txt  file_188.txt  file_20.txt  file_35.txt  file_4.txt   file_64.txt  file_79.txt  file_93.txt
+file_101.txt  file_116.txt  file_130.txt  file_145.txt  file_15.txt   file_174.txt  file_189.txt  file_21.txt  file_36.txt  file_50.txt  file_65.txt  file_7.txt   file_94.txt
+file_102.txt  file_117.txt  file_131.txt  file_146.txt  file_160.txt  file_175.txt  file_18.txt   file_22.txt  file_37.txt  file_51.txt  file_66.txt  file_80.txt  file_95.txt
+file_103.txt  file_118.txt  file_132.txt  file_147.txt  file_161.txt  file_176.txt  file_190.txt  file_23.txt  file_38.txt  file_52.txt  file_67.txt  file_81.txt  file_96.txt
+file_104.txt  file_119.txt  file_133.txt  file_148.txt  file_162.txt  file_177.txt  file_191.txt  file_24.txt  file_39.txt  file_53.txt  file_68.txt  file_82.txt  file_97.txt
+file_105.txt  file_11.txt   file_134.txt  file_149.txt  file_163.txt  file_178.txt  file_192.txt  file_25.txt  file_3.txt   file_54.txt  file_69.txt  file_83.txt  file_98.txt
+file_106.txt  file_120.txt  file_135.txt  file_14.txt   file_164.txt  file_179.txt  file_193.txt  file_26.txt  file_40.txt  file_55.txt  file_6.txt   file_84.txt  file_99.txt
+file_107.txt  file_121.txt  file_136.txt  file_150.txt  file_165.txt  file_17.txt   file_194.txt  file_27.txt  file_41.txt  file_56.txt  file_70.txt  file_85.txt  file_9.txt
+file_108.txt  file_122.txt  file_137.txt  file_151.txt  file_166.txt  file_180.txt  file_195.txt  file_28.txt  file_42.txt  file_57.txt  file_71.txt  file_86.txt
+file_109.txt  file_123.txt  file_138.txt  file_152.txt  file_167.txt  file_181.txt  file_196.txt  file_29.txt  file_43.txt  file_58.txt  file_72.txt  file_87.txt
+file_10.txt   file_124.txt  file_139.txt  file_153.txt  file_168.txt  file_182.txt  file_197.txt  file_2.txt   file_44.txt  file_59.txt  file_73.txt  file_88.txt
+file_110.txt  file_125.txt  file_13.txt   file_154.txt  file_169.txt  file_183.txt  file_198.txt  file_30.txt  file_45.txt  file_5.txt   file_74.txt  file_89.txt
+file_111.txt  file_126.txt  file_140.txt  file_155.txt  file_16.txt   file_184.txt  file_199.txt  file_31.txt  file_46.txt  file_60.txt  file_75.txt  file_8.txt
+file_112.txt  file_127.txt  file_141.txt  file_156.txt  file_170.txt  file_185.txt  file_19.txt   file_32.txt  file_47.txt  file_61.txt  file_76.txt  file_90.txt
+file_113.txt  file_128.txt  file_142.txt  file_157.txt  file_171.txt  file_186.txt  file_1.txt    file_33.txt  file_48.txt  file_62.txt  file_77.txt  file_91.txt
+file_114.txt  file_129.txt  file_143.txt  file_158.txt  file_172.txt  file_187.txt  file_200.txt  file_34.txt  file_49.txt  file_63.txt  file_78.txt  file_92.txt
