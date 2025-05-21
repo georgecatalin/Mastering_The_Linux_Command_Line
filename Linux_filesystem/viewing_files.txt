@@ -1,0 +1,58 @@
+georgeca@georgeca-VirtualBox:~/Desktop/haystack$ touch file{1..10}
+georgeca@georgeca-VirtualBox:~/Desktop/haystack$ cat file1 file2 file3 file4 fil5 file6 file7 file8 file9 file10 1>complete
+cat: fil5: No such file or directory
+georgeca@georgeca-VirtualBox:~/Desktop/haystack$ cat file1 file2 file3 file4 file5 file6 file7 file8 file9 file10 1>complete
+georgeca@georgeca-VirtualBox:~/Desktop/haystack$ cat complete 
+The Su-35 is a 4++ generation multirole supermaneuverable fighter jet developed by Sukhoi.
+It is powered by two Saturn AL-41F1S (also known as izdeliye 117S) afterburning turbofan engines with thrust-vectoring nozzles.
+The aircraft features a digital fly-by-wire control system that enhances agility and stability.
+Its maximum speed exceeds Mach 2.25 at altitude, with a combat radius of approximately 1,600 kilometers.
+The Su-35 is equipped with the Irbis-E passive electronically scanned array (PESA) radar, capable of tracking up to 30 targets simultaneously.
+It has 12 hardpoints and can carry up to 8,000 kg of air-to-air and air-to-ground munitions.
+The integrated electronic warfare system includes radar warning receivers, jamming pods, and 
+Su-35's airframe is built with a high proportion of titanium alloys, enhancing structural strength and reducing weight.
+It features a glass cockpit with two large multifunction LCD displays and a head-up display for improved pilot situational awareness.
+With thrust-vectoring engines and relaxed static stability, the Su-35 can perform extreme maneuvers such as the Pugachev's Cobra and the tail slide.
+georgeca@georgeca-VirtualBox:~/Desktop/haystack$ tac complete 
+With thrust-vectoring engines and relaxed static stability, the Su-35 can perform extreme maneuvers such as the Pugachev's Cobra and the tail slide.
+It features a glass cockpit with two large multifunction LCD displays and a head-up display for improved pilot situational awareness.
+Su-35's airframe is built with a high proportion of titanium alloys, enhancing structural strength and reducing weight.
+The integrated electronic warfare system includes radar warning receivers, jamming pods, and 
+It has 12 hardpoints and can carry up to 8,000 kg of air-to-air and air-to-ground munitions.
+The Su-35 is equipped with the Irbis-E passive electronically scanned array (PESA) radar, capable of tracking up to 30 targets simultaneously.
+Its maximum speed exceeds Mach 2.25 at altitude, with a combat radius of approximately 1,600 kilometers.
+The aircraft features a digital fly-by-wire control system that enhances agility and stability.
+It is powered by two Saturn AL-41F1S (also known as izdeliye 117S) afterburning turbofan engines with thrust-vectoring nozzles.
+The Su-35 is a 4++ generation multirole supermaneuverable fighter jet developed by Sukhoi.
+georgeca@georgeca-VirtualBox:~/Desktop/haystack$ cat complete | rev
+.iohkuS yb depoleved tej rethgif elbarevuenamrepus eloritlum noitareneg ++4 a si 53-uS ehT
+.selzzon gnirotcev-tsurht htiw senigne nafobrut gninrubretfa )S711 eyiledzi sa nwonk osla( S1F14-LA nrutaS owt yb derewop si tI
+.ytilibats dna ytiliga secnahne taht metsys lortnoc eriw-yb-ylf latigid a serutaef tfarcria ehT
+.sretemolik 006,1 yletamixorppa fo suidar tabmoc a htiw ,edutitla ta 52.2 hcaM sdeecxe deeps mumixam stI
+.ylsuoenatlumis stegrat 03 ot pu gnikcart fo elbapac ,radar )ASEP( yarra dennacs yllacinortcele evissap E-sibrI eht htiw deppiuqe si 53-uS ehT
+.snoitinum dnuorg-ot-ria dna ria-ot-ria fo gk 000,8 ot pu yrrac nac dna stniopdrah 21 sah tI
+ dna ,sdop gnimmaj ,sreviecer gninraw radar sedulcni metsys erafraw cinortcele detargetni ehT
+.thgiew gnicuder dna htgnerts larutcurts gnicnahne ,syolla muinatit fo noitroporp hgih a htiw tliub si emarfria s'53-uS
+.ssenerawa lanoitautis tolip devorpmi rof yalpsid pu-daeh a dna syalpsid DCL noitcnufitlum egral owt htiw tipkcoc ssalg a serutaef tI
+.edils liat eht dna arboC s'vehcaguP eht sa hcus srevuenam emertxe mrofrep nac 53-uS eht ,ytilibats citats dexaler dna senigne gnirotcev-tsurht htiW
+georgeca@georgeca-VirtualBox:~/Desktop/haystack$ tac complete | rev
+.edils liat eht dna arboC s'vehcaguP eht sa hcus srevuenam emertxe mrofrep nac 53-uS eht ,ytilibats citats dexaler dna senigne gnirotcev-tsurht htiW
+.ssenerawa lanoitautis tolip devorpmi rof yalpsid pu-daeh a dna syalpsid DCL noitcnufitlum egral owt htiw tipkcoc ssalg a serutaef tI
+.thgiew gnicuder dna htgnerts larutcurts gnicnahne ,syolla muinatit fo noitroporp hgih a htiw tliub si emarfria s'53-uS
+ dna ,sdop gnimmaj ,sreviecer gninraw radar sedulcni metsys erafraw cinortcele detargetni ehT
+.snoitinum dnuorg-ot-ria dna ria-ot-ria fo gk 000,8 ot pu yrrac nac dna stniopdrah 21 sah tI
+.ylsuoenatlumis stegrat 03 ot pu gnikcart fo elbapac ,radar )ASEP( yarra dennacs yllacinortcele evissap E-sibrI eht htiw deppiuqe si 53-uS ehT
+.sretemolik 006,1 yletamixorppa fo suidar tabmoc a htiw ,edutitla ta 52.2 hcaM sdeecxe deeps mumixam stI
+.ytilibats dna ytiliga secnahne taht metsys lortnoc eriw-yb-ylf latigid a serutaef tfarcria ehT
+.selzzon gnirotcev-tsurht htiw senigne nafobrut gninrubretfa )S711 eyiledzi sa nwonk osla( S1F14-LA nrutaS owt yb derewop si tI
+.iohkuS yb depoleved tej rethgif elbarevuenamrepus eloritlum noitareneg ++4 a si 53-uS ehT
+georgeca@georgeca-VirtualBox:~/Desktop/haystack$ less complete 
+georgeca@georgeca-VirtualBox:~/Desktop/haystack$ head complete -n 3
+The Su-35 is a 4++ generation multirole supermaneuverable fighter jet developed by Sukhoi.
+It is powered by two Saturn AL-41F1S (also known as izdeliye 117S) afterburning turbofan engines with thrust-vectoring nozzles.
+The aircraft features a digital fly-by-wire control system that enhances agility and stability.
+georgeca@georgeca-VirtualBox:~/Desktop/haystack$ tail complete -n 4
+The integrated electronic warfare system includes radar warning receivers, jamming pods, and 
+Su-35's airframe is built with a high proportion of titanium alloys, enhancing structural strength and reducing weight.
+It features a glass cockpit with two large multifunction LCD displays and a head-up display for improved pilot situational awareness.
+With thrust-vectoring engines and relaxed static stability, the Su-35 can perform extreme maneuvers such as the Pugachev's Cobra and the tail slide.
